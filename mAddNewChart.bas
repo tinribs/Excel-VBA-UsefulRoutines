@@ -70,6 +70,6 @@ Public Function AddNewChart(Optional ByVal ChartBaseName As String = vbNullStrin
     On Error GoTo 0
     Exit Function
 AddNewChart_Error:
-    MsgBox "Error " & Err.Number & " (" & Err.Description & ") in procedure AddNewChart of Module Module1"
+    MsgBox "Error " & Err.Number & " (" & Err.Description & ") in procedure AddNewChart of Module mAddChart"
 End Function
 
